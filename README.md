@@ -1,33 +1,31 @@
 # nspect
 
-A Leiningen plugin to do many wonderful things.
+[![Clojars Project](https://clojars.org/nspect/latest-version.svg)](http://clojars.org/nspect)
+
+[![CircleCI](https://circleci.com/gh/micahelliott/nspect.svg?style=svg)](https://circleci.com/gh/micahelliott/nspect)
+[![GitHub license](https://img.shields.io/badge/license-3%E2%80%92Clause%20BSD-blue.svg)](https://raw.githubusercontent.com/micahelliott/nspect/master/LICENSE.txt)
+
+A Clojure Leiningen plugin to inspect namespaces for consistency and
+conformance with conventions.
 
 ## Usage
 
-FIXME: Use this for user-level plugins:
+For user-level:
 
 Put `[nspect "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your `:user`
 profile.
 
-FIXME: Use this for project-level plugins:
+For project-level:
 
-Put `[nspect "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your project.clj.
+Put `[nspect "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your
+`project.clj`.
 
-FIXME: and add an example usage that actually makes sense:
-
-    $ lein nspect
+``` shell
+% lein nspect
+```
 
 ## License
 
-Copyright © 2019 FIXME
+Copyright © 2019 Micah Elliott
 
-This program and the accompanying materials are made available under the
-terms of the Eclipse Public License 2.0 which is available at
-http://www.eclipse.org/legal/epl-2.0.
-
-This Source Code may also be made available under the following Secondary
-Licenses when the conditions for such availability set forth in the Eclipse
-Public License, v. 2.0 are satisfied: GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or (at your
-option) any later version, with the GNU Classpath Exception which is available
-at https://www.gnu.org/software/classpath/license.html.
+Distributed under the [3-Clause BSD License](https://raw.githubusercontent.com/micahelliott/nspect/master/LICENSE.txt).

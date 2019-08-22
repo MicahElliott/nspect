@@ -15,7 +15,6 @@
 (map sut/check-in (group-by second t))
 
 
-
 #_[((ns bar.ach-return-workflow "Topology for the ACH return workflow."
         (:require [clojure.tools.logging :as log]
                   [com.foo.ach-return :as ach-return]
@@ -29,3 +28,9 @@
                   [environ.core :refer [env]]
                   bar.time
                   [java-time :as time])))]
+
+(let [example (r/read-string
+               "(ns foo.bar (:require [clojure.string :as str]
+                                      [clojure.data.csv :as csv]
+                                      [clojure.data.csv :as csv2]
+                                      [clojure.data.csv :as c]))")])

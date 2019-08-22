@@ -1,9 +1,10 @@
-(defproject nspect "0.1.0-SNAPSHOT"
+(defproject lein-nspect "0.1.0-SNAPSHOT"
   :description "Inspect namespaces for consistency and conformance with conventions."
-  :url "http://github.com/MicahElliott/nspect"
+  :url "http://github.com/MicahElliott/lein-nspect"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
             :url "https://www.eclipse.org/legal/epl-2.0/"}
-  :dependencies [[org.clojure/tools.namespace "0.3.2-SNAPSHOT"]]
+  :dependencies [[org.clojure/tools.namespace "0.3.2-SNAPSHOT"]
+                 [bultitude "0.2.8"]]
   :repositories [["sonatype-oss-public"
                   "https://oss.sonatype.org/content/groups/public/"]]
   :eval-in-leiningen true)

@@ -1,6 +1,6 @@
-(defproject lein-nspect "0.1.0-SNAPSHOT"
+(defproject nspect "0.1.0-SNAPSHOT"
   :description "Inspect namespaces for consistency and conformance with conventions."
-  :url "http://github.com/MicahElliott/lein-nspect"
+  :url "http://github.com/MicahElliott/nspect"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/tools.namespace "0.3.2-SNAPSHOT"]

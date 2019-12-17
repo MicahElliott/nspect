@@ -45,7 +45,7 @@
        (-> project
            (update-in [:dependencies]
                       conj
-                      ['lein-nspect "0.1.0-SNAPSHOT"]))
+                      ['nspect "0.1.0-SNAPSHOT"]))
        `(if (nspect.core/nspect
              '~project
              {:max-line-length (or (:max-ns-count ~opts)
